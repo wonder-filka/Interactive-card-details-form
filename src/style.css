@@ -33,7 +33,7 @@
     top: -320px;
     z-index: 0 !important;
     width: 300px !important;
-    margin-right: 0px !important;
+    padding-right: 5px !important;
   }
 
   .firstCardData {
