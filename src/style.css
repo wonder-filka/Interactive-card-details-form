@@ -2,9 +2,65 @@
   --input-gradient: linear-gradient(#6448fe, #600594);
 }
 
+@media (min-width: 375px) and (max-width: 767px) {
+  .cards {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image: url("../images/bg-main-mobile.png");
+    height: 100vh;
+    background-size: 100vh 33% !important;
+  }
+
+  .inputInfo {
+    margin-top: -40vh !important;
+  }
+  .cards {
+  }
+
+  .frontCard {
+    margin-top: 120px;
+    position: relative;
+    z-index: 1000 !important;
+    width: 300px !important;
+    margin-right: 0px !important;
+  }
+  .backCard {
+    position: absolute;
+    top: -320px;
+    z-index: 0 !important;
+    width: 300px !important;
+    margin-right: 0px !important;
+  }
+
+  .firstCardData {
+    padding: 13px !important;
+  }
+  .numberCard {
+    font-size: calc(1rem) !important;
+    margin-top: calc(1rem + 3vw) !important;
+  }
+
+  .infoOther {
+    font-size: calc(1rem) !important;
+    padding-bottom: 5vh !important;
+  }
+
+  .cvv {
+    font-size: calc(1rem) !important;
+    margin-top: 70px !important;
+    margin-left: 180px !important;
+  }
+
+  .inputInfo {
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   body {
-    color: white;
     font-size: 16px !important;
   }
   .firstCardData {
@@ -19,8 +75,8 @@
   }
   .cvv {
     font-size: 16px;
-    padding-left: 205px !important;
-    padding-top: 75px !important;
+    margin-left: 190px !important;
+    margin-top: 75px !important;
   }
 }
 
@@ -28,6 +84,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   font-size: 18px;
   height: 100vh;
+  min-width: 375px;
   background-image: url("../images/bg-main-desktop.png");
   background-repeat: no-repeat;
   background-size: 33% 100vh;
@@ -37,8 +94,6 @@ body {
   height: 100vh;
   align-items: center;
   width: 100%;
-}
-.cards {
 }
 
 .frontCard {
@@ -59,7 +114,7 @@ body {
 
 .numberCard {
   margin-top: 60px;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 5px;
   span:nth-child(4n) {
     margin-inline-end: 2vh;
@@ -86,8 +141,8 @@ body {
   position: absolute;
   color: white;
   z-index: 1000;
-  padding-left: 310px;
-  padding-top: 105px;
+  margin-top: 105px;
+  margin-left: 260px;
 }
 
 form {
@@ -149,4 +204,13 @@ label {
   background-color: #220930;
   padding-top: 14px;
   padding-bottom: 14px;
+  border-radius: 8px;
+}
+
+.button:focus {
+  color: white;
+  background-color: #380f50;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 8px;
 }
