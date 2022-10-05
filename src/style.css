@@ -1,0 +1,119 @@
+@media (max-width: 1200px) {
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  background-image: url("../images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main {
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+}
+.cards {
+}
+
+.frontCard {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.firstCardData {
+  position: absolute;
+  color: white;
+  z-index: 1000;
+  padding-left: 0%;
+  padding-top: 30px;
+}
+
+.numberCard {
+  margin-top: 60px;
+  font-size: 24px;
+  letter-spacing: 5px;
+  span:nth-child(4n) {
+    margin-inline-end: 2vh;
+  }
+}
+
+.backCard {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.infoOther {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.cvv {
+  position: absolute;
+  color: white;
+  z-index: 1000;
+  padding-left: 310px;
+  padding-top: 105px;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.dataWrap {
+  width: 100%;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+input {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.dataCardMMYYCVC {
+  display: flex;
+}
+
+.myBlock {
+  width: 40%;
+}
+
+.elseBlock {
+  width: 100%;
+}
+
+.button {
+  color: white;
+  background-color: #220930;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
