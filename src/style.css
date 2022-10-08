@@ -47,7 +47,8 @@
 
   .infoOther {
     font-size: calc(1rem) !important;
-    padding-bottom: 5vh !important;
+    padding-bottom: 1vh !important;
+    margin-top: 10px !important;
   }
 
   .cvv {
@@ -112,11 +113,11 @@ body {
   z-index: 1000;
   padding-left: 0%;
   padding-top: 30px;
-  width: 350px;
+  width: 370px;
 }
 
 .numberCard {
-  margin-top: 75px;
+  margin-top: 60px;
   font-size: 22px;
   letter-spacing: 5px;
   span:nth-child(4n) {
@@ -134,7 +135,7 @@ body {
 }
 
 .infoOther {
-  margin-top: 1vh;
+  margin-top: 2vh;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
