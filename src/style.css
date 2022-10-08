@@ -246,3 +246,10 @@ label {
 #parConfirm {
   color: #424242;
 }
+
+.gitHub {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  font-size: 14px;
+}
