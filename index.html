@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- displays site properly based on user's device -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
@@ -18,10 +17,10 @@
 
 <body>
     <div class="container">
-        <div class="row main py-1">
+        <main role="main" class="row main py-1">
             <div class="cards col-md">
                 <div class="frontCard">
-                    <img src="./images/bg-card-front.png" class="img-fluid" />
+                    <img src="./images/bg-card-front.png" class="img-fluid" alt="cardFront" />
                     <div class="firstCardData">
                         <div class="logo">
                             <svg width="84" height="47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +47,7 @@
                     </div>
                 </div>
                 <div class="backCard m-5">
-                    <img src="./images/bg-card-back.png" class="img-fluid" />
+                    <img src="./images/bg-card-back.png" class="img-fluid" alt="cardBack" />
                     <div class="cvv" id="cvcCard">000</div>
                 </div>
             </div>
@@ -87,7 +86,7 @@
                 </form>
             </div>
 
-        </div>
+        </main>
         <script src="src/index.js"></script>
     </div>
 </body>
