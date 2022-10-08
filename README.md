@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/wonder-filka/Interactive-card-details-form)
+- Live Site URL: [Launch Project](https://harmonious-quokka-7a0fa0.netlify.app)
 
 ## My process
 
@@ -64,6 +64,6 @@ I want create this app with React JS.
 
 ## Author
 
-- Website - [Interactive-card-details-form](https://harmonious-quokka-7a0fa0.netlify.app/)
+- Website - [My portfolio website](https://sensational-cactus-93a152.netlify.app/)
 - Frontend Mentor - [@ywonder-filka](https://www.frontendmentor.io/profile/wonder-filka)
 - GitHub - [@wonder-filka](https://github.com/wonder-filka/Interactive-card-details-form)
