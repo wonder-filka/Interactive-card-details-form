@@ -17,7 +17,7 @@
 
 <body>
     <div class="container">
-        <main role="main" class="row main py-1">
+        <main class="row main py-1">
             <div class="cards col-md">
                 <div class="frontCard">
                     <img src="./images/bg-card-front.png" class="img-fluid" alt="cardFront" />
@@ -61,7 +61,7 @@
                         <label>Card Number</label><br>
                         <input type="text" name="numberCard" id="userNumber" maxlength="16" minlength="16"
                             placeholder="e.g. 1234 5678 9123 0000" required pattern="\d*">
-                        <label for="numberCard" class="wrongFormat" id="labelNumber"></label>
+                        <label class="wrongFormat" id="labelNumber"></label>
                     </div>
                     <div class="dataWrap dataCardMMYYCVC">
                         <div class="dateData">
@@ -80,7 +80,7 @@
                     </div>
                     <div class="labels">
                         <label class="wrongFormat mmstyle" id="labelMm"></label>
-                        <label for="cvc" class="wrongFormat cvcstyle" id="labelCvc"></label>
+                        <label class="wrongFormat cvcstyle" id="labelCvc"></label>
                     </div>
                     <button type="submit" value="Confirm" class="my-4 button">Confirm</button>
                 </form>
