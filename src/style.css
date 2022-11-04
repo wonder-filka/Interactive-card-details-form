@@ -12,7 +12,7 @@
   body {
     background-image: url("../images/bg-main-mobile.png");
     height: 100vh;
-    background-size: 100vh 33% !important;
+    background-size: 100% 33% !important;
   }
 
   .inputInfo {
@@ -55,7 +55,8 @@
     margin-left: 180px !important;
   }
 
-  .inputInfo {
+  #userInfoForm {
+    width: 90% !important;
   }
 }
 
@@ -90,6 +91,8 @@ body {
   background-repeat: no-repeat;
   background-size: 33% 100vh;
   color: #220930;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .main {
@@ -101,6 +104,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+  padding: 1vh;
 }
 .frontCard {
   position: relative;
