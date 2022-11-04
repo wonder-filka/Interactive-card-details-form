@@ -1,13 +1,11 @@
 :root {
   --input-gradient: linear-gradient(#6448fe, #600594);
 }
-
-@media (min-width: 375px) and (max-width: 767px) {
-  .cards {
-    padding-left: 50px;
+@media (max-width: 400px) {
+  .backCard {
+    margin-right: 0 !important;
   }
 }
-
 @media (max-width: 767px) {
   body {
     background-image: url("../images/bg-main-mobile.png");
@@ -99,6 +97,11 @@ body {
   height: 100vh;
   align-items: center;
   width: 100%;
+  margin: 0;
+}
+
+.myContainer {
+  padding: 0;
 }
 .cards {
   display: flex;
@@ -106,7 +109,9 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 1vh;
+  align-content: center;
 }
+
 .frontCard {
   position: relative;
   z-index: 0;
