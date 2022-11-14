@@ -63,5 +63,4 @@ I want create this app with React JS.
 ## Author
 
 - Website - [My portfolio website](https://sensational-cactus-93a152.netlify.app/)
-- Frontend Mentor - [@wonder-filka](https://www.frontendmentor.io/profile/wonder-filka)
 - GitHub - [@wonder-filka](https://github.com/wonder-filka/Interactive-card-details-form)
